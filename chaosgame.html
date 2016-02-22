@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chaos Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="chaosgame.css">
+  <head>
+  <body>
+    <div id="content" class="container">
+      <div class="row">
+        <canvas id="canvas"></canvas>
+      </div>
+
+      <div class="row" id="toolbar-row">
+        <div class="btn-group">
+          <button id="reset" type="button" class="btn btn-default">Reset</button>
+        </div>
+        <div class="btn-group">
+          <button type="button" class="btn btn-default speed-button" data-speed="200">Slow</button>
+          <button id="speed-default" type="button" class="btn btn-default speed-button" data-speed="1000">Medium</button>
+          <button type="button" class="btn btn-default speed-button" data-speed="5000">Fast</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="chaosgame.js"></script>
+  </body>
+</html>

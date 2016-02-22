@@ -1,0 +1,19 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+#content {
+  padding-top: 15px;
+  text-align: center;
+}
+#toolbar-row {
+  padding-top: 15px;
+}
+.canvasbox {
+  padding: 25px;
+  width: 100%;
+}
+.canvasbox canvas {
+  width: 100%;
+  height: 100%;
+}
